@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Love Story</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e6cef4;
+      color: #333;
+      text-align: center;
+    }
+    header {
+      background-color: #6a5acd;
+      color: white;
+      padding: 20px 0;
+    }
+    h1, h2 {
+      font-size: 2.5em;
+    }
+    section {
+      margin: 30px 0;
+    }
+    .gallery img {
+      width: 300px;
+      margin: 10px;
+      border-radius: 8px;
+    }
+    .button {
+      background-color: #ff1493;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      font-size: 1.2em;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .button2 {
+      background-color: #000000;
+      color: white;
+      padding: 15px 30px;
+      border: none;
+      font-size: 1.2em;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .button:hover {
+      background-color: #ff69b4;
+    }
+    .button2:hover {
+      background-color: #525151;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Our Love Story</h1>
+  </header>
+
+  <section>
+    <h2>How We Met</h2>
+    <p>It all started when I first met you on the bus, I never imagined that one day you would become my whole world. Slowly, the distance between us turned into conversations, and those conversations became a deep connection. You became a part of my life—a part I never want to lose.
+        Without you, I am incomplete. Your smile is my strength.
+        I wish that the paths that separated us come together once again. You were mine, you are mine, and you will always be mine. Give me one more chance to make everything even more beautiful than before.
+    </p>
+  </section>
+
+  <section>
+    <h2>Special Memories</h2>
+    <div class="gallery">
+      <img src="bus.jpeg" alt="Memory 1" >
+      <p>Our First Meeting inside the Bus</p>
+      <img src="cuddle.jpeg" alt="Memory 2">
+      <p>Our Second Meeting in the house sleeping together</p>
+      <img src="dance.jpeg" alt="Memory 3">
+      <p>Our Third Meeting in the house dancing together</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>The Big Question</h2>
+    <p>I've always wanted to be yours forever.</p>
+    <p><strong>Will you be mine?</strong></p>
+    <button class="button" onclick="showPopup()">YES!</button>
+    <button class="button2" onclick="showPopup2()">NO!</button>
+  </section>
+
+  <script>
+    function showPopup() {
+      alert('You are mine now forever ❤️');
+    }
+    function showPopup2() {
+      alert('This is Not an Option, and if you click this then it means YES ❤️');
+    }
+  </script>
+
+</body>
+</html>
